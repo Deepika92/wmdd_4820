@@ -33,12 +33,17 @@ converting from binary to decimal is relatively easy, you just add up all of the
 
 for example:
 
-    00100010 using the place values above we can see that the value for 32 and 2 are 1, or "on" if you imagine a value as being either on or off. so this binary number is 34.
+    00100010 using the place values above we can see that the value for 32 and 2 are 1, or "on", 
+    if you imagine a value as being either on or off. so this binary number is 34.
 
-converting to hexadecimal from binary is also not all that tricky. hex values can all be represented by 4 bits. so if we
-split our number of 8 in half we have 0010 | 0010 or two 2s so the Hexadecimal value would be 22
+converting to hexadecimal from binary is also not all that tricky. hex values can all be represented by 4 bits. 
+so if we split our number of 8 in half we have 0010 | 0010 or two 2s so the Hexadecimal value would be 22
 
-the trickiest conversion of the bunch is hexadecimal to and from decimal. but as we have just seen converting binary to and from hexadecimal isn't so bad, and neither is converting binary to decimal. so generally if you ever have to do this in your head, or without a calculator I would recommend using binary as an intermediary stage.
+the trickiest conversion of the bunch is hexadecimal to and from decimal. but as we have just seen 
+converting binary to and from hexadecimal isn't so bad, and neither is converting binary to decimal.
+so generally if you ever have to do this in your head, or without a calculator I would recommend using 
+binary as an intermediary stage.
+
 decimal -> binary -> hexadecimal
 hexadecimal -> binary -> decimal
 
