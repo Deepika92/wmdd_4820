@@ -14,14 +14,19 @@ here are a few to chose from that do just enough for us right now
 node js, this is what i often use in class  
 [http-server](https://www.npmjs.com/package/http-server)
 
+then go to localhost:8080 in the browser
+
+the two options below should work in the mac labs on campus(use python 2 for
+macs by default)
 
 [python](https://www.python.org/)  
 `python -m -m http.server`  
 or for python 2  
 `python -m SimpleHTTPServer`
 
+then go to localhost:8000 in your browser
 
 [php](https://secure.php.net/)  
 `php -S localhost:8080`
 
-
+then go to localhost:8080 in the browser
