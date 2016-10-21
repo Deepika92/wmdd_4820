@@ -4,8 +4,8 @@
 
 - objects, constructor function
 - more p5 drawing
-- mid-term, there is no mid-term
 - Math.random()
+- linters
 
 ## creating objects with a constructor function
 
