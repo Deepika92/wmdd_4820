@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>lending library</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <h1>the library</h1>
+    <p>search for a book by author's by name</p>
+    <input id="authorSearch" >
+    <button type="button" id="autSearch">search</button>
+    <ol id='result'></ol>
+   </div>
+
+   <div class="margin">
+    <p>search for a book by title's name</p>
+    <input id="titleSearch" >
+    <button type="button" id="titlSearch">search</button>
+    <ol id='output'></ol>
+  </div>
+
+  <div id="reguser" class="margin">
+    <h2>Register New User and issue the library card</h2>
+    <label for="name">Enter the user Name</label>
+    <input id="name" type="text" class="spacing"><br>
+    <label for="contact">Enter your contact number</Label>
+    <input id="contact" type="telephone" class="spacing"><br>
+    <label for="card">Enter the library card info.</Label>
+    <input id="card" type="text" class="spacing">
+    <br>
+    <button type="button" onclick="RegisterUser()">Register</button>
+  </div>
+
+  <div>
+    <button type="button" onclick="showallusers()" id="UsersAdd">Show All Users</button>
+    <ol id="allTheUsers">
+  </div>
+  <footer>
+    <p>wmdd 4820 lending library 2016</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
